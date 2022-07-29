@@ -433,6 +433,10 @@ nav {
     text-decoration: none;
 }
 
+.footer-socials i:hover {
+    color: gray;
+}
+
 
 /* TABLET */
 @media (min-width: 768px) {
