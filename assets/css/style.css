@@ -434,3 +434,263 @@ nav {
 }
 
 
+/* TABLET */
+@media (min-width: 768px) {
+    html {
+        font-size: 59%;
+    }
+    /* HEADER */
+    .header-container {
+        width: 85%;
+    }
+
+    .header-menu.on .header-menu--toggle {
+        right: 59px;
+    }
+
+    /* HOME */
+    .home-bot {
+        margin-top: 30px;
+    }
+
+    .home-container, .oqfaz-container, .comand-container, .footer-container {
+        width: 90%;
+    }
+
+    .home-bot {
+        margin-bottom: 50px;
+    }
+
+    .home-bot img {
+        width: 80%;
+    }
+
+    .efeito-mobile {
+        width: 50%;
+    }
+
+
+
+}
+
+/* NOTEBOOK 1024 */
+@media (min-width: 1024px) {
+
+    /* HEADER-MENU */
+    .header-menu--toggle {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    .header-container > .header-menu > nav > ul{
+        list-style: none;
+        text-decoration: none;
+
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    
+        position: relative;
+    
+        padding: 5px 25px;
+        margin: 0px 10px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        line-height: 28px;
+        font-weight: normal;
+    
+        color: #FFF;
+        border: 1px solid #FFF;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .button::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+    
+        position: absolute;
+    
+        background-color: #FFF;
+        z-index: -1;
+        transition: all .5s;
+    }
+
+    .button:hover {
+        color: black;
+    }
+    
+    
+    .efeito::before {
+        width: 0;
+        height: 100%;
+    
+        top: 0;
+        left: 0;
+    }
+    
+    .efeito:hover::before {
+        width: 100%;
+    }
+
+    /* HOME */
+    
+    .home-container {
+        flex-direction: row-reverse;
+    }
+
+    .home-bot {
+        width: 50%;
+    }
+
+    .home-desc {
+        width: 50%;
+
+        margin-right: 30px;
+    }
+    
+    .home-desc h1,
+    .home-bot h1 {
+        font-size: 3.5rem;
+    }
+
+    .home-desc p {
+        font-size: 2rem;
+    }
+
+    .efeito-mobile {
+        display: flex;
+        justify-content: center;
+    
+        position: relative;
+    
+        padding: 5px 25px;
+        margin: 0px 10px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        line-height: 28px;
+        font-weight: normal;
+        text-transform: capitalize;
+    
+        color: #000;
+        border: 1px solid #00F;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .efeito-mobile::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+    
+        position: absolute;
+    
+        background-color: #00F;
+        z-index: -1;
+        transition: all .5s;
+    }
+
+    .efeito-mobile:hover {
+        color: #FFF;
+    }
+    
+    
+    .effects::before {
+        width: 0;
+        height: 100%;
+    
+        top: 0;
+        left: 0;
+    }
+    
+    .effects:hover::before {
+        width: 100%;
+    }
+
+    /* OQ FAZ? */
+    .oqfaz-conteudo {
+        padding: 40px 20px 30px 40px;
+    }
+    
+
+    .oqfaz-conteudo li {
+        color: #000;
+        font-size: 2.2rem;
+
+        margin-bottom: 30px;
+    }
+
+    /* COMANDOS */
+    .comand-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media (min-width: 1366px) {
+    html {
+        font-size: 65.5%;
+    }
+
+    .header-container, .home-container, .oqfaz-container, .comand-container, .footer-container {
+        max-width: 75%;
+    }
+
+    .home-bot, .home-desc {
+        flex: 1;
+    }
+
+    .home-bot {
+        align-items: flex-end;
+    }
+
+    .home-bot img {
+        width: 65%;
+    }
+
+    .oqfaz-conteudo {
+        width: 70%;
+    }
+
+    .comand-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .comand-box .box {
+        padding: 10px;
+    }
+
+    .comand-box h1 {
+        font-size: 3rem;
+    }
+
+    .comand-box .box ul li p {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+
