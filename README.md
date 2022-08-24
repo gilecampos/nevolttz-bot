@@ -6,7 +6,7 @@ em seu servidor.
 Desenvolvendo essa Landing page eu aprendi muito sobre efeito, e pseudo-elementos em CSS além de expandir meus conhecimentos em mobileFirst e mediaqueries.
 
 # Tecnologias Usadas:
-HTML e CSS puro.
+HTML, CSS e JavaScript puro.
 
 # Link para visualização do projeto:
 https://gilecampos.github.io/nevolttz-bot/
