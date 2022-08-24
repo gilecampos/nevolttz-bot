@@ -3,7 +3,7 @@ Esse projeto é uma Landing page de um bot de discord que ainda está em desenvo
 em seu servidor.
 
 # Aprendizado
-Desenvolvendo essa Landing page eu aprendi muito sobre efeito, e pseudo-elementos em CSS além de expandir meus conhecimentos em mediaqueries.
+Desenvolvendo essa Landing page eu aprendi muito sobre efeito, e pseudo-elementos em CSS além de expandir meus conhecimentos em mobileFirst e mediaqueries.
 
 # Tecnologias Usadas:
 HTML e CSS puro.
