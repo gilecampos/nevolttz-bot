@@ -1,0 +1,25 @@
+@mixin flex($justify_content, $align_items, $flex_direction) {
+   display: flex;
+   justify-content: $justify_content;
+   align-items: $align_items;
+   flex-direction: $flex_direction;
+}
+
+@mixin title {
+   font-size: 40px;
+   font-weight: bold;
+   color: $color_tertiary;
+   line-height: 110%;
+}
+
+@mixin paragraph($color) {
+   font-size: 3.4rem;
+   font-weight: 500;
+   color: $color;
+   line-height: 150%;
+}
+
+@mixin container ($max_width){
+   max-width: $max_width;
+   margin: 0 auto;
+}

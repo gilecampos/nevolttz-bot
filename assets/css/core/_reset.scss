@@ -1,0 +1,35 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+html {
+    font-size: 50%;
+
+    @media(max-width: 1024px) {
+        font-size: 45%;
+    }
+
+    @media(max-width: 768px) {
+        font-size: 40%;
+    }
+}
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    background-color: #F2F4FD;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
