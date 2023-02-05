@@ -149,6 +149,7 @@
 @media(max-width: 768px) {
    .nav.active #hamburguer {
       border-top-color: transparent;
+      background-color: $color_white;
 
       &::before {
          transform: rotate(135deg);
