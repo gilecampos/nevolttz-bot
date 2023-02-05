@@ -69,6 +69,7 @@
          width: 25px;
          border-top: 2px solid;
          color: $color_secondary;
+         background-color: $color_white;
          
          &::after, &::before {
             content: '';
