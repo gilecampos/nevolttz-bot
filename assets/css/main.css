@@ -486,7 +486,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: calc(100vh - 80px);
+  height: calc(90vh - 80px);
 }
 #main .main-container .home-img h1 {
   font-size: 3.6rem;
