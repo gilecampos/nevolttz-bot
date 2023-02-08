@@ -13,11 +13,6 @@ html {
 }
 @media (max-width: 1024px) {
   html {
-    font-size: 45%;
-  }
-}
-@media (max-width: 768px) {
-  html {
     font-size: 40%;
   }
 }
@@ -55,11 +50,6 @@ html {
 }
 @media (max-width: 1024px) {
   html {
-    font-size: 45%;
-  }
-}
-@media (max-width: 768px) {
-  html {
     font-size: 40%;
   }
 }
@@ -87,12 +77,13 @@ body {
   height: 90px;
   display: flex;
   align-items: center;
+  background-color: #478C95;
 }
 
 .container {
   width: 100%;
   height: 100%;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -120,9 +111,9 @@ body {
 }
 .header-logo h1 {
   font-size: 8rem;
-  color: #0B434A;
+  color: #F2F4FD;
   line-height: 110%;
-  border-right: 2px solid #0B434A;
+  border-right: 2px solid #F2F4FD;
   padding-right: 0.365rem;
   margin-right: 0.365rem;
   transition: all 0.5s ease;
@@ -131,7 +122,7 @@ body {
 .header-logo p {
   font-size: 3.4rem;
   font-weight: 500;
-  color: #0B434A;
+  color: #F2F4FD;
   line-height: 150%;
   transition: all 0.5s ease;
   line-height: 110%;
@@ -142,9 +133,9 @@ body {
   display: none;
   gap: 2rem;
   border: none;
-  background-color: #F2F4FD;
   font-size: 3rem;
   cursor: pointer;
+  background-color: #478C95;
 }
 @media (max-width: 768px) {
   .nav .btnMobile {
@@ -156,8 +147,7 @@ body {
 .nav .btnMobile #hamburguer {
   width: 25px;
   border-top: 2px solid;
-  color: #478C95;
-  background-color: #F2F4FD;
+  color: #F2F4FD;
   overflow: hidden;
 }
 .nav .btnMobile #hamburguer::after, .nav .btnMobile #hamburguer::before {
@@ -176,7 +166,6 @@ body {
 .nav .menu {
   display: flex;
   gap: 1rem;
-  background-color: #F2F4FD;
 }
 @media (max-width: 768px) {
   .nav .menu {
@@ -202,11 +191,11 @@ body {
   }
 }
 .nav .menu li:hover {
-  background-color: rgba(0, 0, 0, 0.189);
+  background-color: #0B434A;
 }
 .nav .menu li a {
   display: block;
-  color: #0B434A;
+  color: #F2F4FD;
   padding: 1rem;
 }
 @media (max-width: 768px) {
@@ -224,7 +213,6 @@ body {
 @media (max-width: 768px) {
   .nav.active #hamburguer {
     border-top-color: transparent;
-    background-color: #F2F4FD;
   }
   .nav.active #hamburguer::before {
     transform: rotate(135deg);
@@ -249,11 +237,6 @@ html {
 }
 @media (max-width: 1024px) {
   html {
-    font-size: 45%;
-  }
-}
-@media (max-width: 768px) {
-  html {
     font-size: 40%;
   }
 }
@@ -291,11 +274,6 @@ html {
 }
 @media (max-width: 1024px) {
   html {
-    font-size: 45%;
-  }
-}
-@media (max-width: 768px) {
-  html {
     font-size: 40%;
   }
 }
@@ -323,12 +301,13 @@ body {
   height: 90px;
   display: flex;
   align-items: center;
+  background-color: #478C95;
 }
 
 .container {
   width: 100%;
   height: 100%;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -356,9 +335,9 @@ body {
 }
 .header-logo h1 {
   font-size: 8rem;
-  color: #0B434A;
+  color: #F2F4FD;
   line-height: 110%;
-  border-right: 2px solid #0B434A;
+  border-right: 2px solid #F2F4FD;
   padding-right: 0.365rem;
   margin-right: 0.365rem;
   transition: all 0.5s ease;
@@ -367,7 +346,7 @@ body {
 .header-logo p {
   font-size: 3.4rem;
   font-weight: 500;
-  color: #0B434A;
+  color: #F2F4FD;
   line-height: 150%;
   transition: all 0.5s ease;
   line-height: 110%;
@@ -378,9 +357,9 @@ body {
   display: none;
   gap: 2rem;
   border: none;
-  background-color: #F2F4FD;
   font-size: 3rem;
   cursor: pointer;
+  background-color: #478C95;
 }
 @media (max-width: 768px) {
   .nav .btnMobile {
@@ -392,8 +371,7 @@ body {
 .nav .btnMobile #hamburguer {
   width: 25px;
   border-top: 2px solid;
-  color: #478C95;
-  background-color: #F2F4FD;
+  color: #F2F4FD;
   overflow: hidden;
 }
 .nav .btnMobile #hamburguer::after, .nav .btnMobile #hamburguer::before {
@@ -412,7 +390,6 @@ body {
 .nav .menu {
   display: flex;
   gap: 1rem;
-  background-color: #F2F4FD;
 }
 @media (max-width: 768px) {
   .nav .menu {
@@ -438,11 +415,11 @@ body {
   }
 }
 .nav .menu li:hover {
-  background-color: rgba(0, 0, 0, 0.189);
+  background-color: #0B434A;
 }
 .nav .menu li a {
   display: block;
-  color: #0B434A;
+  color: #F2F4FD;
   padding: 1rem;
 }
 @media (max-width: 768px) {
@@ -460,7 +437,6 @@ body {
 @media (max-width: 768px) {
   .nav.active #hamburguer {
     border-top-color: transparent;
-    background-color: #F2F4FD;
   }
   .nav.active #hamburguer::before {
     transform: rotate(135deg);
@@ -481,18 +457,31 @@ body {
   align-items: center;
   flex-direction: column-reverse;
 }
+@media (min-width: 768px) {
+  #main .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+}
 #main .main-container .home-img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: calc(90vh - 80px);
+  height: calc(100vh - 90px);
+}
+@media (max-width: 768px) {
+  #main .main-container .home-img {
+    border-bottom: 1px solid rgba(11, 67, 74, 0.3764705882);
+  }
 }
 #main .main-container .home-img h1 {
-  font-size: 5.6rem;
+  font-size: 4.8rem;
   font-weight: 500;
   color: #0B434A;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 #main .main-container .home-img h1 span {
   font-weight: bolder;
@@ -500,19 +489,30 @@ body {
 #main .main-container .home-img img {
   width: 300px;
 }
+@media (min-width: 1336px) {
+  #main .main-container .home-img img {
+    width: 350px;
+  }
+}
 #main .main-container .home-content {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  #main .main-container .home-content {
+    height: calc(100vh - 90px);
+    width: 50%;
+  }
 }
 #main .main-container .home-content h1 {
-  font-size: 5.6rem;
+  font-size: 4.8rem;
   font-weight: bolder;
   color: #0B434A;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 2.4rem;
   border-top: 10px solid #0B434A;
   word-break: break-word;
 }
