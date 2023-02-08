@@ -150,6 +150,7 @@
 .nav.active .menu {
    height: calc(100vh - 80px);
    visibility: visible;
+   background-color: $color_secondary;
 }
 
 @media(max-width: 768px) {

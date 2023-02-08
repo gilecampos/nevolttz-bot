@@ -208,6 +208,7 @@ body {
 .nav.active .menu {
   height: calc(100vh - 80px);
   visibility: visible;
+  background-color: #478C95;
 }
 
 @media (max-width: 768px) {
@@ -432,6 +433,7 @@ body {
 .nav.active .menu {
   height: calc(100vh - 80px);
   visibility: visible;
+  background-color: #478C95;
 }
 
 @media (max-width: 768px) {
