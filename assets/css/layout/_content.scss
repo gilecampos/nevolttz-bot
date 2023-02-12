@@ -4,8 +4,6 @@
 
 @import "../core/reset", "../core/typography";
 
-@import "../layout/footer", "../layout/header";
-
 #main {
    width: 100vw;
    height: auto;
@@ -95,8 +93,8 @@
             cursor: pointer;
             
             &:hover {
-               color: $color_tertiary;
-               border-color: $color_tertiary;
+               color: $color_white;
+               background-color: $color_secondary;
             }
 
                
@@ -113,7 +111,7 @@
    // HOME FUNCTIONALITIES
 
    .functionalities-bg {
-      background-color: $color_secondary;
+      background-color: $color_white;
 
 
       .content-functionalities {
@@ -124,7 +122,7 @@
 
          h1 {
             font-size: 4.8rem;
-            color: $color_white;
+            color: $color_secondary;
 
             margin-bottom: 4rem;
          }
@@ -160,8 +158,8 @@
             font-size: 2.4rem;
             font-weight: 400;
 
-            color: $color_tertiary;
-            background-color: $color_white;
+            color: $color_white;
+            background-color: $color_secondary;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
 

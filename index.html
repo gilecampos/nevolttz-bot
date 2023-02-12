@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="shortcut icon" href="assets/img/robot.svg" type="image/x-icon">
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css" />
 
@@ -15,6 +17,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <!-- JS -->
     <script defer src="assets/js/main.js"></script>
@@ -28,7 +33,7 @@
         <!-- HEADER LOGO -->
         <div class="header-logo">
           <h1>NB</h1>
-          <p>nevolttz bot</p>
+          <p>Nevolttz bot</p>
         </div>
 
         <!-- HEADER NAVBAR -->
@@ -46,9 +51,8 @@
             </button>
 
           <ul class="menu" role="menu">
-            <li><a href="/">Ínicio</a></li>
-            <li><a href="/">Funcionalidades</a></li>
-            <li><a href="/">Comandos</a></li>
+            <li><a href="#home-container">Início</a></li>
+            <li><a href="#funcionalidade">Funcionalidades</a></li>
           </ul>
         </nav>
       </div>
@@ -66,25 +70,25 @@
         </section>
 
         <section class="home-img">
-          <h1>Eu sou <span>Nevolttz Bot</span></h1>
+          <h1>Eu sou o <span>Nevolttz Bot</span></h1>
           <img src="assets/img/robot-face 1.png" alt="">
         </section>
       </div>
 
       <!-- SECTION FUNCIONALIDADES -->
 
-      <div class="functionalities-bg">
+      <div id="funcionalidade" class="functionalities-bg">
         <div class="container">
           <section class="content-functionalities">
             <h1>Funcionalidades</h1>
             <button class="accordion">Comandos de mensagem</button>
             <div class="panel">
-              <p>permitir que os usuários enviam comandos para o bot para exibir informações úteis, como horários de eventos programados, regras do servidor, etc.</p>
+              <p>Permite que os usuários enviem comandos para o bot para exibir informações úteis, como horários de eventos programados, regras do servidor, etc.</p>
             </div>
 
             <button class="accordion">Jogos</button>
             <div class="panel">
-              <p>Os jogos, como Trivia, Jogo da Forca, Jogo de Memória e Quiz de Personalidade, permitem que os usuários testem seus conhecimentos e habilidades em um ambiente divertido. Eles são jogados por meio de comandos no chat do Discord e podem incluir várias perguntas ou desafios para os jogadores completarem.</p>
+              <p>Os jogos como Trivia, Jogo da Forca, Jogo de Memória e Quiz de Personalidade, permitem que os usuários testem seus conhecimentos e habilidades em um ambiente divertido. Eles são jogados por meio de comandos no chat do Discord e podem incluir várias perguntas ou desafios para os jogadores completarem.</p>
             </div>
 
             <button class="accordion">Música</button>
@@ -114,16 +118,42 @@
           </section>
         </div>
       </div>
-
-
-
-
     </main>
 
-    <!-- FONTAWESOME -->
-    <script
-      src="https://kit.fontawesome.com/5b49dcbbc2.js"
-      crossorigin="anonymous"
-    ></script>
+    <footer id="footer">
+      <div class="container">
+        <h1>
+          <a 
+            href="https://beacons.ai/gileandrocampos" 
+            target="_blank"
+          >
+            Gileandro Campos
+          </a>
+        </h1>
+        <div class="footer-socials">
+          <a 
+            href="https://www.instagram.com/gileandro.campos/" 
+            target="_blank"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+
+          <a 
+            href="https://www.linkedin.com/in/gileandrocampos/" 
+            target="_blank"
+          >
+              <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/gilecampos"
+           target="_blank"
+          >
+            <i class="bi bi-github"></i>
+          </a>
+      
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
