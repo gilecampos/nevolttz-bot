@@ -360,7 +360,7 @@ body {
 }
 @media (max-width: 768px) {
   #main .home-container .home-img {
-    border-bottom: 1px solid rgba(11, 67, 74, 0.3764705882);
+    height: 70vh;
   }
 }
 #main .home-container .home-img h1 {
@@ -390,7 +390,7 @@ body {
 }
 @media (min-width: 768px) {
   #main .home-container .home-content {
-    height: calc(100vh - 90px);
+    height: 70vh;
     width: 50%;
   }
 }

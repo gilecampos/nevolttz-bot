@@ -24,7 +24,7 @@
          height: calc(100vh - 90px);
          
          @media (max-width: 768px) {
-            border-bottom: 1px solid #0b434a60;
+            height: 70vh;
          }
          h1 {
             font-size: 4.8rem;
@@ -53,7 +53,7 @@
          height: 100vh;
 
          @media(min-width: 768px) {
-            height: calc(100vh - 90px);
+            height: 70vh;
             width: 50%;
          }
 
