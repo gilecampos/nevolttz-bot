@@ -388,10 +388,9 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #main .home-container .home-content {
     height: 70vh;
-    width: 50%;
   }
 }
 #main .home-container .home-content h1 {
@@ -449,7 +448,7 @@ body {
   margin-bottom: 4rem;
 }
 #main .functionalities-bg .content-functionalities .accordion {
-  background-color: #0B434A;
+  background-color: #478C95;
   border: none;
   border-bottom: 1px solid #75B2BA;
   outline: none;

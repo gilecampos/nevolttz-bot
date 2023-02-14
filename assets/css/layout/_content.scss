@@ -52,9 +52,8 @@
          @include flex (center, flex-start, column);
          height: 100vh;
 
-         @media(min-width: 768px) {
+         @media(max-width: 768px) {
             height: 70vh;
-            width: 50%;
          }
 
          h1 {
@@ -128,7 +127,7 @@
          }
 
          .accordion {
-            background-color: $color_tertiary;
+            background-color: $color_secondary;
             border: none;
             border-bottom: 1px solid $color_primary;
             outline: none;
