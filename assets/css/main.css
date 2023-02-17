@@ -205,9 +205,9 @@ body {
 }
 .header-logo h1 {
   font-size: 5.6rem;
-  color: #ceede7;
+  color: #02211b;
   line-height: 110%;
-  border-right: 2px solid #ceede7;
+  border-right: 2px solid #02211b;
   padding-right: 0.365rem;
   margin-right: 0.365rem;
   transition: all 0.5s ease;
@@ -216,11 +216,12 @@ body {
 .header-logo p {
   font-size: 2.4rem;
   font-weight: 500;
-  color: #ceede7;
+  color: #02211b;
   line-height: 150%;
   transition: all 0.5s ease;
   line-height: 110%;
   overflow: hidden;
+  font-weight: bold;
 }
 
 .nav .btnMobile {
@@ -229,7 +230,7 @@ body {
   border: none;
   font-size: 3rem;
   cursor: pointer;
-  background-color: #53c1aa;
+  background-color: #09A785;
 }
 @media (max-width: 768px) {
   .nav .btnMobile {
@@ -241,7 +242,7 @@ body {
 .nav .btnMobile #hamburguer {
   width: 25px;
   border-top: 2px solid;
-  color: #ceede7;
+  color: #02211b;
   overflow: hidden;
 }
 .nav .btnMobile #hamburguer::after, .nav .btnMobile #hamburguer::before {
@@ -285,24 +286,25 @@ body {
   }
 }
 .nav .menu li:hover {
-  background-color: #02211b;
+  background-color: #09A785;
+  filter: brightness(1.2);
 }
 .nav .menu li a {
   display: block;
-  color: #ceede7;
+  color: #02211b;
   padding: 1rem;
 }
 @media (max-width: 768px) {
   .nav .menu li a {
     padding: 2rem 0;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.189);
+    border-bottom: 2px solid #53c1aa;
   }
 }
 
 .nav.active .menu {
   height: calc(100vh - 80px);
   visibility: visible;
-  background-color: #53c1aa;
+  background-image: linear-gradient(218.2deg, #09A785 13.3%, #1AC79B 82.4%);
 }
 
 @media (max-width: 768px) {
