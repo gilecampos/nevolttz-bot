@@ -28,13 +28,14 @@
          }
          h1 {
             font-size: 3.6rem;
-            font-weight: 500;
-            color: $color_secondary;
+            font-weight: 400;
+            color: $color_tertiary;
 
             margin-bottom: 2rem;
 
             span {
                font-weight: bolder;
+               font-family: 'Labrada', serif;
                color: $color_tertiary;
             }
          }
@@ -61,10 +62,10 @@
          h1 {
             font-size: 3.8rem;
             font-weight: bolder;
-            color: $color_secondary;
+            color: $color_tertiary;
             padding-top: 1rem;
             margin-bottom: 2.4rem;
-            border-top: 10px solid $color_secondary;
+            border-top: 10px solid $color_primary;
 
             word-break: break-word;
          }
@@ -72,21 +73,21 @@
          p {
             font-size: 2rem;
             line-height: 160%;
-            color: #000C1A;
+            color: $color_tertiary;
 
             margin-bottom: 4rem;
          }
 
          button {
             position: relative;
-            border: 2px solid $color_secondary;
+            border: 2px solid $color_tertiary;
             border-radius: 10px;
             width: 200px;
             height: auto;
             padding: 1.4rem 0;
             background-color: transparent;
 
-            color: $color_secondary;
+            color: $color_tertiary;
             font-weight: bolder;
             font-size: 2.6rem;
             
@@ -95,7 +96,8 @@
             
             &:hover {
                color: $color_white;
-               background-color: $color_secondary;
+               background-color: $color_primary;
+               border-color: $color_primary;
             }
 
                
@@ -123,17 +125,17 @@
 
          h1 {
             font-size: 4.8rem;
-            color: $color_secondary;
+            color: $color_tertiary;
 
             margin-bottom: 4rem;
          }
 
          .accordion {
-            background-color: $color_secondary;
+            background-color: $color_primary;
             border: none;
-            border-bottom: 1px solid $color_primary;
+            border-bottom: 1px solid $color_tertiary;
             outline: none;
-            color: $color_white;
+            color: $color_tertiary;
 
             font-size: 3.2rem;
             font-weight: 500;
@@ -151,15 +153,18 @@
             }
          }
 
+
+
+
          .active, .accordion:hover {
-            background-color: $color_tertiary;
+            background-color: $color_secondary;
          }
 
          .panel {
             font-size: 2.4rem;
             font-weight: 400;
 
-            color: $color_white;
+            color: $color_tertiary;
             background-color: $color_secondary;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
@@ -180,7 +185,7 @@
 
 .accordion:after {
    content: '\002B';
-   color: $color_white;
+   color: $color_tertiary;
    font-weight: bold;
    float: right;
    margin-left: 5px;
@@ -189,5 +194,6 @@
  .active:after {
    content: "\2212";
  }
+
 
 

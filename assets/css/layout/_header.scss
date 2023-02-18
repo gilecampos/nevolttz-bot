@@ -21,22 +21,20 @@
    h1 {
       font-size: 5.6rem;
       color: $color_tertiary;
-      line-height: 110%;
 
       border-right: 2px solid $color_tertiary;
       padding-right: .365rem;
       margin-right: .365rem;
 
       transition: all .5s ease;
-      overflow: hidden
    }
 
    p {
       @include paragraph($color_tertiary);
-      transition: all .5s ease;
-      line-height: 110%;
-      overflow: hidden;
       font-weight: bold;
+      font-family: 'Labrada', serif;
+
+      transition: all .5s ease;
    }
 }
 
@@ -49,7 +47,6 @@
       gap: 2rem;
       border: none;
 
-      font-size: 3rem;
       cursor: pointer;
 
       background-color: $color_primary;
@@ -90,7 +87,6 @@
 
       @media(max-width: 768px) {
          display: block;
-
          width: 100%;
          height: 0;
 
@@ -102,7 +98,6 @@
          z-index: 1000;
 
          transition: all .5s ease;
-         visibility: hidden;
       }
 
       
@@ -137,7 +132,6 @@
 // MOBILE MENU -- TOGGLE //
 .nav.active .menu {
    height: calc(100vh - 80px);
-   visibility: visible;
    background-image: linear-gradient(218.2deg, $color_primary 13.3%, #1AC79B 82.4%);
 }
 

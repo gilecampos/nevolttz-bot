@@ -99,7 +99,7 @@ body {
 }
 
 #footer {
-  background-color: #53c1aa;
+  background-image: linear-gradient(218.2deg, #09A785 13.3%, #1AC79B 82.4%);
   width: 100%;
   height: 80px;
 }
@@ -108,11 +108,11 @@ body {
 }
 #footer h1 a {
   text-decoration: none;
-  color: #ceede7;
-  transition: color 0.3s;
+  color: #02211b;
+  transition: color 0.5s;
 }
 #footer h1 a:hover {
-  color: #02211b;
+  filter: brightness(1.5);
 }
 #footer .footer-socials {
   display: flex;
@@ -120,12 +120,12 @@ body {
 }
 #footer .footer-socials i {
   font-size: 3rem;
-  color: #ceede7;
+  color: #02211b;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: color 0.5s ease;
 }
 #footer .footer-socials i:hover {
-  color: #02211b;
+  filter: brightness(1.5);
 }
 
 .container {
@@ -206,29 +206,25 @@ body {
 .header-logo h1 {
   font-size: 5.6rem;
   color: #02211b;
-  line-height: 110%;
   border-right: 2px solid #02211b;
   padding-right: 0.365rem;
   margin-right: 0.365rem;
   transition: all 0.5s ease;
-  overflow: hidden;
 }
 .header-logo p {
   font-size: 2.4rem;
   font-weight: 500;
   color: #02211b;
   line-height: 150%;
-  transition: all 0.5s ease;
-  line-height: 110%;
-  overflow: hidden;
   font-weight: bold;
+  font-family: "Labrada", serif;
+  transition: all 0.5s ease;
 }
 
 .nav .btnMobile {
   display: none;
   gap: 2rem;
   border: none;
-  font-size: 3rem;
   cursor: pointer;
   background-color: #09A785;
 }
@@ -273,7 +269,6 @@ body {
     text-align: center;
     z-index: 1000;
     transition: all 0.5s ease;
-    visibility: hidden;
   }
 }
 .nav .menu li {
@@ -303,7 +298,6 @@ body {
 
 .nav.active .menu {
   height: calc(100vh - 80px);
-  visibility: visible;
   background-image: linear-gradient(218.2deg, #09A785 13.3%, #1AC79B 82.4%);
 }
 
@@ -390,12 +384,13 @@ body {
 }
 #main .home-container .home-img h1 {
   font-size: 3.6rem;
-  font-weight: 500;
-  color: #53c1aa;
+  font-weight: 400;
+  color: #02211b;
   margin-bottom: 2rem;
 }
 #main .home-container .home-img h1 span {
   font-weight: bolder;
+  font-family: "Labrada", serif;
   color: #02211b;
 }
 #main .home-container .home-img img {
@@ -423,27 +418,27 @@ body {
 #main .home-container .home-content h1 {
   font-size: 3.8rem;
   font-weight: bolder;
-  color: #53c1aa;
+  color: #02211b;
   padding-top: 1rem;
   margin-bottom: 2.4rem;
-  border-top: 10px solid #53c1aa;
+  border-top: 10px solid #09A785;
   word-break: break-word;
 }
 #main .home-container .home-content p {
   font-size: 2rem;
   line-height: 160%;
-  color: #000C1A;
+  color: #02211b;
   margin-bottom: 4rem;
 }
 #main .home-container .home-content button {
   position: relative;
-  border: 2px solid #53c1aa;
+  border: 2px solid #02211b;
   border-radius: 10px;
   width: 200px;
   height: auto;
   padding: 1.4rem 0;
   background-color: transparent;
-  color: #53c1aa;
+  color: #02211b;
   font-weight: bolder;
   font-size: 2.6rem;
   transition: all 0.5s ease;
@@ -451,7 +446,8 @@ body {
 }
 #main .home-container .home-content button:hover {
   color: #ceede7;
-  background-color: #53c1aa;
+  background-color: #09A785;
+  border-color: #09A785;
 }
 #main .home-container .home-content button:active {
   background-color: #02211b;
@@ -471,15 +467,15 @@ body {
 }
 #main .functionalities-bg .content-functionalities h1 {
   font-size: 4.8rem;
-  color: #53c1aa;
+  color: #02211b;
   margin-bottom: 4rem;
 }
 #main .functionalities-bg .content-functionalities .accordion {
-  background-color: #53c1aa;
+  background-color: #09A785;
   border: none;
-  border-bottom: 1px solid #09A785;
+  border-bottom: 1px solid #02211b;
   outline: none;
-  color: #ceede7;
+  color: #02211b;
   font-size: 3.2rem;
   font-weight: 500;
   text-align: left;
@@ -492,12 +488,12 @@ body {
   opacity: 0.7;
 }
 #main .functionalities-bg .content-functionalities .active, #main .functionalities-bg .content-functionalities .accordion:hover {
-  background-color: #02211b;
+  background-color: #53c1aa;
 }
 #main .functionalities-bg .content-functionalities .panel {
   font-size: 2.4rem;
   font-weight: 400;
-  color: #ceede7;
+  color: #02211b;
   background-color: #53c1aa;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -511,7 +507,7 @@ body {
 
 .accordion:after {
   content: "+";
-  color: #ceede7;
+  color: #02211b;
   font-weight: bold;
   float: right;
   margin-left: 5px;

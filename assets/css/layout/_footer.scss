@@ -5,7 +5,7 @@
 @import "../core/reset", "../core/typography";
 
 #footer {
-   background-color: $color_secondary;
+   background-image: linear-gradient(218.2deg, $color_primary 13.3%, #1AC79B 82.4%);
    width: 100%;
    height: 80px;
 
@@ -13,11 +13,11 @@
       font-size: 2.4rem;
       a {
          text-decoration: none;
-         color: $color_white;
-         transition: color 0.3s;
+         color: $color_tertiary;
+         transition: color 0.5s;
 
          &:hover {
-            color: $color_tertiary;
+            filter:brightness(1.5)
          }
       }
    }
@@ -28,13 +28,13 @@
 
       i {
          font-size: 3rem;
-         color: $color_white;
+         color: $color_tertiary;
          cursor: pointer;
 
-         transition: color 0.3s;
+         transition: color .5s ease;
 
          &:hover {
-            color: $color_tertiary;
+            filter: brightness(1.5);
          }
       }
    }
